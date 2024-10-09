@@ -1,4 +1,4 @@
-# Handwritten Digit Classification using Logistic Regression
+# Handwritten Digit Classification using Deep Nueral Networks on GPU
 
 This repository contains a logistic regression model implemented in Python for classifying handwritten digits from the MNIST dataset. The model achieves an accuracy of **96.6%** and aims to provide insights into basic machine learning concepts using logistic regression.
 
@@ -15,7 +15,7 @@ This repository contains a logistic regression model implemented in Python for c
 
 ## Introduction
 
-The MNIST dataset is a classic dataset in the field of machine learning and image processing, containing 60,000 training images and 10,000 testing images of handwritten digits. This project demonstrates how to implement a logistic regression model to classify these digits effectively.
+The MNIST dataset is a classic dataset in the field of machine learning and image processing, containing 60,000 training images and 10,000 testing images of handwritten digits. This project demonstrates how to implement a deep nueral network model to classify these digits effectively.
 
 ## Requirements
 
@@ -39,7 +39,7 @@ The dataset used for this project is the **MNIST** dataset, which can be directl
 
 ## Model Description
 
-This project employs a logistic regression model, which is a linear model used for binary classification. In this case, we extend it for multi-class classification by applying the softmax function to output probabilities for each digit class.
+This project employs a nueral network model, which is a linear model used for binary classification. In this case, we extend it for multi-class classification by applying the softmax function to output probabilities for each digit class.
 
 The model architecture includes:
 
@@ -65,7 +65,7 @@ The model architecture includes:
 
 ## Results
 
-The model achieved an accuracy of **96.6%** on the test dataset, demonstrating its effectiveness in classifying handwritten digits.
+The model achieved an accuracy of **98.11%** on the test dataset, demonstrating its effectiveness in classifying handwritten digits.
 
 ## Future Work
 
