@@ -1,6 +1,6 @@
 # Handwritten Digit Classification using Deep Nueral Networks on GPU
 
-This repository contains a logistic regression model implemented in Python for classifying handwritten digits from the MNIST dataset. The model achieves an accuracy of **96.6%** and aims to provide insights into basic machine learning concepts using logistic regression.
+This repository contains a nueral network model implemented in Python for classifying handwritten digits from the MNIST dataset. The model achieves an accuracy of **98.11%** and aims to provide insights into basic machine learning concepts using Deep Nueral Network.
 
 ## Table of Contents
 
@@ -52,7 +52,7 @@ The model architecture includes:
 
     ```bash
     git clone https://github.com/yourusername/your-repo-name.git
-    cd your-repo-name
+    cd Image_Classification
     ```
 
 2. Open the Jupyter Notebook:
